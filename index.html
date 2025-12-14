@@ -14,8 +14,8 @@ AFRAME.registerComponent('snow', {
     for (let i = 0; i < this.data.count; i++) {
       const snowflake = document.createElement('a-plane');
 
-      snowflake.setAttribute('width', Math.random() * 0.1 + 0.05);
-      snowflake.setAttribute('height', Math.random() * 0.1 + 0.05);
+      snowflake.setAttribute('width', Math.random() * 0.01 + 0.005);
+      snowflake.setAttribute('height', Math.random() * 0.01 + 0.005);
       snowflake.setAttribute('material', 'color: white; opacity: 0.8; transparent: true');
 
       snowflake.setAttribute('position', {
