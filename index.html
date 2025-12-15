@@ -54,9 +54,15 @@ AFRAME.registerComponent('snow', {
           muted
           playsinline>
         </video>
+        <a-asset-item id="myModel" src="ainava.glb"></a-asset-item>
       </a-assets>
 
       <a-videosphere src="#video360"></a-videosphere>
+      <a-entity
+  gltf-model="#myModel"
+  position="0 0 -3"
+  scale="1 1 1">
+</a-entity>
 
       <a-camera></a-camera>
 
