@@ -27,7 +27,7 @@
       <a-entity
   gltf-model="#myModel"
   position="0 0 0"
-  rotation="0 0 0"
+  rotation="0 90 0"
   scale="1 1 1">
 </a-entity>
 
@@ -41,7 +41,15 @@
   color="#001E57">
 </a-light>
       
-
+<a-light
+  type="spot"
+  intensity="0.75"
+  position="-17.5 -16.5 10.5"
+  rotation="90 180 0"
+  penumbra="1"
+  color="#FFAA0">
+</a-light
+  
     </a-scene>
      <script>
       const video = document.querySelector('#video360');
